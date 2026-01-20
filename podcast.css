@@ -12,6 +12,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #1A0B2E;
 }
 
 
@@ -98,7 +99,7 @@ nav >span{
 }
 #banner .image{
      background-image: url("B13-A02-TechWave/assets/hero-circle.png"); 
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -344,9 +345,80 @@ p,.heading p,.number p,.card-section p,.guest-container p{
 .youtube{
     padding: 10px;
 }
+footer{
+    padding: 120px 200px;
+    background: url("B13-A02-TechWave/assets/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.footer-icon{
+    /* padding-top: 120px; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.footer-img{
+    justify-content: center;
+    margin-left: 50px;
+}
+.footer-container .copyright{
+    text-align: center;
+}
+.footer-icon p{
+    display: flex;
+    gap: 10px;
+    
+    margin-top: 32px;
+}
+
  
 
 @media screen and (max-width:576px){
+    body{
+        overflow-x: hidden;
+    }
+    #banner{
+        background: url("B13-A02-TechWave/assets/hero-bg.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #banner .image{
+     background-image: url("B13-A02-TechWave/assets/hero-circle.png"); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 250px;
+   
+   margin-top: 60px;
+   margin-bottom: 20px;
+    }
+    #banner  .badge{
+    background-color: #00FF88;
+    border: none;
+    border-radius: 1000px;
+    padding: 8px 16px;
+    color: #1A0B2E;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 3px 27px 0 #00FF88;
+    position: absolute;
+    /* margin-right: -280px; */
+    margin-top: -308px;
+    margin-left: 73px;
+    /* margin-bottom: 22px; */
+}
+    #banner img{
+        width: 100px;
+    }
     nav .menu,nav .btn{
         display: none;
     }
@@ -430,17 +502,50 @@ p,.heading p,.number p,.card-section p,.guest-container p{
     width: 400px;
     height: 486px;
     text-align: center;
-    margin-left: -120px;
+    margin-left: -150px;
 }
 .icon-container{
     justify-content: center;
 }
-#guest h2,#featured .title{
+#guest h2{
     white-space:nowrap ;
-    margin-left: -80px;
+    margin-left: -120px;
 }
 #featured .title h2{
-    margin-left: -50px ;
+    margin-left: -140px ;
     white-space: nowrap;
+}
+footer{
+    background: url("B13-A02-TechWave/assets/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    width: 100%;
+    
+
+   
+} 
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 30px;
+    margin-left: -20px;
+    
+}
+.footer-icon p{
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -20px;
+}
+.footer-img{
+    padding-top: 30px;
+    width: 100%;
+    margin-left: -20px;
+    /* height: auto; */
+}
+.footer-container .copyright{
+    padding-bottom: 10px;
 }
 }
