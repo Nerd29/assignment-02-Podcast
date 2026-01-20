@@ -421,7 +421,26 @@ p,.heading p,.number p,.card-section p,.guest-container p{
     align-items: center;
     flex-direction: column;
 }
+.guest-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+    align-items: center;
+    width: 400px;
+    height: 486px;
+    text-align: center;
+    margin-left: -120px;
+}
+.icon-container{
+    justify-content: center;
+}
+#guest h2,#featured .title{
+    white-space:nowrap ;
+    margin-left: -80px;
+}
 #featured .title h2{
-    margin-left: -15px ;
+    margin-left: -50px ;
+    white-space: nowrap;
 }
 }
