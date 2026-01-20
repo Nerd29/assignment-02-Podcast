@@ -86,8 +86,7 @@ nav >span{
 #banner{
     /* background-color: #1A0B2E; */
     background: url("/B13-A02-TechWave/assets/hero-bg.png"),#1A0B2E;
-    height: auto;
-    min-height: 760px;
+    height: 760px;
     /* width: 100%; */
      background-repeat: no-repeat;
     background-position: center;
