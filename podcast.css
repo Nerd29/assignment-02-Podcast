@@ -90,7 +90,7 @@ nav >span{
     /* width: 100%; */
      background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
    justify-items: center;
    text-align: center;
    padding-top: 100px;
