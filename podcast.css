@@ -179,6 +179,10 @@ p,.heading p,.number p,.card-section p,.guest-container p{
    text-align: center;
    padding: 120px 0;
 }
+.about-container .heading{
+    border-bottom: 1px solid #ffffff49;
+    padding: 30px;
+}
 .heading h2{
     font-size: 3rem;
     font-weight: 700;
