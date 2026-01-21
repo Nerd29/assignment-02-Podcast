@@ -18,10 +18,10 @@ body{
 
 
 /* header */
-/* header{
-    background-color: #1A0B2E;
+header{
+    /* background-color: #1A0B2E; */
    /* width: 100%; */
-*/
+}
 nav{
     display: flex;
     justify-content: space-between;
