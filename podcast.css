@@ -18,12 +18,10 @@ body{
 
 
 /* header */
-header{
+/* header{
     background-color: #1A0B2E;
    /* width: 100%; */
-   
-    
-}
+*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -90,7 +88,7 @@ nav >span{
     /* width: 100%; */
      background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
    justify-items: center;
    text-align: center;
    padding-top: 100px;
